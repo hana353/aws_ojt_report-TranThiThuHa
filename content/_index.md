@@ -7,11 +7,11 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Hoang Tran My Duyen
+&emsp; **Full Name:** Tran Thi Thu Ha
 
-&emsp; **Phone Number:** 0962866302 
+&emsp; **Phone Number:** 0886167163
 
-&emsp; **Email:** duyenhtmse180688@fpt.edu.vn
+&emsp; **Email:** hatttse181604@fpt.edu.vn
 
 &emsp; **University:** FPT University HCMC
 
@@ -24,7 +24,7 @@ chapter: false
 &emsp; **Internship Duration:** From 08/09/2025 to 00/12/2025
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/images/avatar.png" alt="Ảnh đại diện - Hoàng Trần Mỹ Duyên" style="width:500px; height: auto; border: 1px solid #ddd;" />
+  <img src="/images/avatar.png" alt="Ảnh đại diện - Trần Thị Thu Hà" style="width:500px; height: auto; border: 1px solid #ddd;" />
 </div>
 
 

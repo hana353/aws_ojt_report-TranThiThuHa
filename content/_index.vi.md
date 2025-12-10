@@ -7,11 +7,11 @@ chapter: false
 # Báo cáo thực tập
 
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Hoàng Trần Mỹ Duyên
+&emsp; **Họ và tên:** Trần Thị Thu Hà
 
-&emsp; **Số điện thoại:** 0962866302
+&emsp; **Số điện thoại:** 0886167163
 
-&emsp; **Email:** duyenhtmse180688
+&emsp; **Email:** hatttse181604@fpt.edu.vn
 
 &emsp; **Trường:** Đại học FPT TP.Hồ Chí Minh
 
@@ -24,7 +24,7 @@ chapter: false
 &emsp; **Thời gian thực tập:** Từ ngày 08/09/2025 đến ngày 00/12/2025
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/images/avatar.png" alt="Ảnh đại diện - Hoàng Trần Mỹ Duyên" style="width:500px; height: auto; border: 1px solid #ddd;" />
+  <img src="/images/avatar.png" alt="Ảnh đại diện - Trần Thị Thu Hà " style="width:500px; height: auto; border: 1px solid #ddd;" />
 </div>
 
 ### Nội dung báo cáo
