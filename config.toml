@@ -1,13 +1,13 @@
-baseURL = "https://hana353.github.io/aws_ojt_report-TranThiThuHa/"
-relativeURLs = true
+baseURL = "https://HtmDuyn.github.io/aws-report-2HTD-LearningHub/"
+relativeURLs = false
 canonifyURLs = true
+defaultContentLanguageInSubdir = true
 
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
 # For search functionality
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
 
 [params]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".

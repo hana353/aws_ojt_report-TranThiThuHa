@@ -1,37 +1,32 @@
 ---
 title: "Internship Report"
-
 weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Hoang Tran My Duyen
 
-&emsp; **Phone Number:** 0989888999 
+&emsp; **Phone Number:** 0962866302 
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** duyenhtmse180688@fpt.edu.vn
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **University:** FPT University HCMC
 
-&emsp; **Major:** Information Technology
-
-&emsp; **Class:** AWS082025
+&emsp; **Major:** Information Systems
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
 &emsp; **Internship Position:** FCJ Cloud Intern
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From 08/09/2025 to 00/12/2025
 
-![Your profile picture](/images/avatar.png)
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/images/avatar.png" alt="Ảnh đại diện - Hoàng Trần Mỹ Duyên" style="width:500px; height: auto; border: 1px solid #ddd;" />
+</div>
+
 
 ### Report Content
 
