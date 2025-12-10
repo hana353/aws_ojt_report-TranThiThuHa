@@ -1,0 +1,2464 @@
+<!DOCTYPE html>
+<html lang="vi" class="js csstransforms3d">
+  <head><script src="/hana353/aws_ojt_report-TranThiThuHa/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hana353/aws_ojt_report-TranThiThuHa/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.152.2">
+    <meta
+  name="description"
+  content=""
+/>
+<meta name="author" content="thienlh@thienlu.com" />
+
+    <link rel="icon" href="../../../images/favicon.png" type="image/png">
+
+    <title>Event 3 :: Báo cáo thực tập</title>
+
+    
+    <link href="../../../css/nucleus.css?1765365112" rel="stylesheet">
+    <link href="../../../css/fontawesome-all.min.css?1765365112" rel="stylesheet">
+    <link href="../../../css/hybrid.css?1765365112" rel="stylesheet">
+    <link href="../../../css/featherlight.min.css?1765365112" rel="stylesheet">
+    <link href="../../../css/perfect-scrollbar.min.css?1765365112" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1765365112" rel="stylesheet">
+    <link href="../../../css/atom-one-dark-reasonable.css?1765365112" rel="stylesheet">
+    <link href="../../../css/theme.css?1765365112" rel="stylesheet">
+    <link href="../../../css/hugo-theme.css?1765365112" rel="stylesheet">
+    
+    <link href="../../../css/theme-workshop.css?1765365112" rel="stylesheet">
+    
+    
+
+    <script src="../../../js/jquery-3.3.1.min.js?1765365112"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="../../../vi/4-eventparticipated/4.3-event3/">
+    <nav
+  id="sidebar"
+  class="showVisitedLinks"
+>
+   
+  <div id="header-wrapper">
+    <div id="header"><a id="logo" href="../../../">
+  <svg
+    id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 60 30"
+    width="30%"
+  >
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #fff;
+        }
+        .cls-2 {
+          fill: #f90;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+    <title>AWS-Logo_White-Color</title>
+    <path
+      class="cls-1"
+      d="M14.09,10.85a4.7,4.7,0,0,0,.19,1.48,7.73,7.73,0,0,0,.54,1.19.77.77,0,0,1,.12.38.64.64,0,0,1-.32.49l-1,.7a.83.83,0,0,1-.44.15.69.69,0,0,1-.49-.23,3.8,3.8,0,0,1-.6-.77q-.25-.42-.51-1a6.14,6.14,0,0,1-4.89,2.3,4.54,4.54,0,0,1-3.32-1.19,4.27,4.27,0,0,1-1.22-3.2A4.28,4.28,0,0,1,3.61,7.75,6.06,6.06,0,0,1,7.69,6.46a12.47,12.47,0,0,1,1.76.13q.92.13,1.91.36V5.73a3.65,3.65,0,0,0-.79-2.66A3.81,3.81,0,0,0,7.86,2.3a7.71,7.71,0,0,0-1.79.22,12.78,12.78,0,0,0-1.79.57,4.55,4.55,0,0,1-.58.22l-.26,0q-.35,0-.35-.52V2a1.09,1.09,0,0,1,.12-.58,1.2,1.2,0,0,1,.47-.35A10.88,10.88,0,0,1,5.77.32,10.19,10.19,0,0,1,8.36,0a6,6,0,0,1,4.35,1.35,5.49,5.49,0,0,1,1.38,4.09ZM7.34,13.38a5.36,5.36,0,0,0,1.72-.31A3.63,3.63,0,0,0,10.63,12,2.62,2.62,0,0,0,11.19,11a5.63,5.63,0,0,0,.16-1.44v-.7a14.35,14.35,0,0,0-1.53-.28,12.37,12.37,0,0,0-1.56-.1,3.84,3.84,0,0,0-2.47.67A2.34,2.34,0,0,0,5,11a2.35,2.35,0,0,0,.61,1.76A2.4,2.4,0,0,0,7.34,13.38Zm13.35,1.8a1,1,0,0,1-.64-.16,1.3,1.3,0,0,1-.35-.65L15.81,1.51a3,3,0,0,1-.15-.67.36.36,0,0,1,.41-.41H17.7a1,1,0,0,1,.65.16,1.4,1.4,0,0,1,.33.65l2.79,11,2.59-11A1.17,1.17,0,0,1,24.39.6a1.1,1.1,0,0,1,.67-.16H26.4a1.1,1.1,0,0,1,.67.16,1.17,1.17,0,0,1,.32.65L30,12.39,32.88,1.25A1.39,1.39,0,0,1,33.22.6a1,1,0,0,1,.65-.16h1.54a.36.36,0,0,1,.41.41,1.36,1.36,0,0,1,0,.26,3.64,3.64,0,0,1-.12.41l-4,12.86a1.3,1.3,0,0,1-.35.65,1,1,0,0,1-.64.16H29.25a1,1,0,0,1-.67-.17,1.26,1.26,0,0,1-.32-.67L25.67,3.64,23.11,14.34a1.26,1.26,0,0,1-.32.67,1,1,0,0,1-.67.17Zm21.36.44a11.28,11.28,0,0,1-2.56-.29,7.44,7.44,0,0,1-1.92-.67,1,1,0,0,1-.61-.93v-.84q0-.52.38-.52a.9.9,0,0,1,.31.06l.42.17a8.77,8.77,0,0,0,1.83.58,9.78,9.78,0,0,0,2,.2,4.48,4.48,0,0,0,2.43-.55,1.76,1.76,0,0,0,.86-1.57,1.61,1.61,0,0,0-.45-1.16A4.29,4.29,0,0,0,43,9.22l-2.41-.76A5.15,5.15,0,0,1,38,6.78a3.94,3.94,0,0,1-.83-2.41,3.7,3.7,0,0,1,.45-1.85,4.47,4.47,0,0,1,1.19-1.37A5.27,5.27,0,0,1,40.51.29,7.4,7.4,0,0,1,42.6,0a8.87,8.87,0,0,1,1.12.07q.57.07,1.08.19t.95.26a4.27,4.27,0,0,1,.7.29,1.59,1.59,0,0,1,.49.41.94.94,0,0,1,.15.55v.79q0,.52-.38.52a1.76,1.76,0,0,1-.64-.2,7.74,7.74,0,0,0-3.2-.64,4.37,4.37,0,0,0-2.21.47,1.6,1.6,0,0,0-.79,1.48,1.58,1.58,0,0,0,.49,1.18,4.94,4.94,0,0,0,1.83.92L44.55,7a5.08,5.08,0,0,1,2.57,1.6A3.76,3.76,0,0,1,47.9,11a4.21,4.21,0,0,1-.44,1.93,4.4,4.4,0,0,1-1.21,1.47,5.43,5.43,0,0,1-1.85.93A8.25,8.25,0,0,1,42.05,15.62Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M45.19,23.81C39.72,27.85,31.78,30,25,30A36.64,36.64,0,0,1,.22,20.57c-.51-.46-.06-1.09.56-.74A49.78,49.78,0,0,0,25.53,26.4,49.23,49.23,0,0,0,44.4,22.53C45.32,22.14,46.1,23.14,45.19,23.81Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M47.47,21.21c-.7-.9-4.63-.42-6.39-.21-.53.06-.62-.4-.14-.74,3.13-2.2,8.27-1.57,8.86-.83s-.16,5.89-3.09,8.35c-.45.38-.88.18-.68-.32C46.69,25.8,48.17,22.11,47.47,21.21Z"
+    ></path>
+  </svg>
+</a>
+</div>
+     <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="../../../js/lunr.min.js?1765365112"></script>
+<script type="text/javascript" src="../../../js/auto-complete.js?1765365112"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/localhost:1313\/hana353\/aws_ojt_report-TranThiThuHa\/\/vi";
+    
+</script>
+<script type="text/javascript" src="../../../js/search.js?1765365112"></script>
+ 
+  </div>
+
+  <div class="highlightable">
+    <ul class="topics">
+               
+<li
+  data-nav-id="/vi/1-worklog/"
+  title="Nhật ký công việc"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/">
+     <b> 1. </b> Nhật ký công việc 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/vi/1-worklog/1.1-week1/"
+  title="Worklog Tuần 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.1-week1/">
+     <b> 1.1. </b> Worklog Tuần 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.2-week2/"
+  title="Worklog Tuần 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.2-week2/">
+     <b> 1.2. </b> Worklog Tuần 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.3-week3/"
+  title="Worklog Tuần 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.3-week3/">
+     <b> 1.3. </b> Worklog Tuần 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.4-week4/"
+  title="Worklog Tuần 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.4-week4/">
+     <b> 1.4. </b> Worklog Tuần 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.5-week5/"
+  title="Worklog Tuần 5"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.5-week5/">
+     <b> 1.5. </b> Worklog Tuần 5 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.6-week6/"
+  title="Worklog Tuần 6"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.6-week6/">
+     <b> 1.6. </b> Worklog Tuần 6 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.7-week7/"
+  title="Worklog Tuần 7"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.7-week7/">
+     <b> 1.7. </b> Worklog Tuần 7 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.8-week8/"
+  title="Worklog Tuần 8"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.8-week8/">
+     <b> 1.8. </b> Worklog Tuần 8 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.9-week9/"
+  title="Worklog Tuần 9"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.9-week9/">
+     <b> 1.9. </b> Worklog Tuần 9 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.10-week10/"
+  title="Worklog Tuần 10"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.10-week10/">
+     <b> 1.10. </b> Worklog Tuần 10 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.11-week11/"
+  title="Worklog Tuần 11"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.11-week11/">
+     <b> 1.11. </b> Worklog Tuần 11 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.12-week12/"
+  title="Worklog Tuần 12"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/1-worklog/1.12-week12/">
+     <b> 1.12. </b> Worklog Tuần 12 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/vi/2-proposal/"
+  title="Bản đề xuất"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/2-proposal/">
+     <b> 2. </b> Bản đề xuất 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/vi/4-eventparticipated/"
+  title="Các events đã tham gia"
+  class="dd-item 
+        parent
+        
+        
+        "
+>
+  <a href="../../../vi/4-eventparticipated/">
+     <b> 4. </b> Các events đã tham gia 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/vi/4-eventparticipated/4.1-event1/"
+  title="Event 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/4-eventparticipated/4.1-event1/">
+     <b> 4.1. </b> Event 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/4-eventparticipated/4.2-event2/"
+  title="Event 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/4-eventparticipated/4.2-event2/">
+     <b> 4.2. </b> Event 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/4-eventparticipated/4.3-event3/"
+  title="Event 3"
+  class="dd-item 
+        
+        active
+        
+        "
+>
+  <a href="../../../vi/4-eventparticipated/4.3-event3/">
+     <b> 4.3. </b> Event 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/4-eventparticipated/4.4-event4/"
+  title="Event 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/4-eventparticipated/4.4-event4/">
+     <b> 4.4. </b> Event 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/4-eventparticipated/4.5-event5/"
+  title="Event 5"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/4-eventparticipated/4.5-event5/">
+     <b> 4.5. </b> Event 5 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/vi/5-workshop/"
+  title="Workshop"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/">
+     <b> 5. </b> Workshop 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/vi/5-workshop/5.1-workshop-overview/"
+  title="Giới thiệu"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.1-workshop-overview/">
+     <b> 5.1. </b> Giới thiệu 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.2-prerequiste/"
+  title="Các bước chuẩn bị"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.2-prerequiste/">
+     <b> 5.2. </b> Các bước chuẩn bị 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.3-s3-vpc/"
+  title="Truy cập S3 từ VPC"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.3-s3-vpc/">
+     <b> 5.3. </b> Truy cập S3 từ VPC 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/vi/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/"
+  title="Tạo một Gateway Endpoint"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/">
+     <b> 5.3.1 </b> Tạo một Gateway Endpoint 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.3-s3-vpc/5.3.2-test-gwe/"
+  title="Kiểm tra Gateway Endpoint"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.3-s3-vpc/5.3.2-test-gwe/">
+     <b> 5.3.2 </b> Kiểm tra Gateway Endpoint 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.4-s3-onprem/"
+  title="Truy cập S3 từ môi trường truyền thống"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.4-s3-onprem/">
+     <b> 5.4. </b> Truy cập S3 từ môi trường truyền thống 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/vi/5-workshop/5.4-s3-onprem/5.4.1-prepare/"
+  title="Chuẩn bị tài nguyên"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.4-s3-onprem/5.4.1-prepare/">
+     <b> 5.4.1 </b> Chuẩn bị tài nguyên 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/"
+  title="Tạo một S3 Interface endpoint"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/">
+     <b> 5.4.2 </b> Tạo một S3 Interface endpoint 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/"
+  title="Kiểm tra Interface Endpoint"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/">
+     <b> 5.4.3 </b> Kiểm tra Interface Endpoint 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/"
+  title="Mô phỏng On-premises DNS "
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/">
+     <b> 5.4.4 </b> Mô phỏng On-premises DNS  
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.5-policy/"
+  title="VPC Endpoint Policies"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.5-policy/">
+     <b> 5.5 </b> VPC Endpoint Policies 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.6-cleanup/"
+  title="Dọn dẹp tài nguyên"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/5-workshop/5.6-cleanup/">
+     <b> 5.6. </b> Dọn dẹp tài nguyên 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/vi/6-self-evaluation/"
+  title="Tự đánh giá"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/6-self-evaluation/">
+     <b> 6. </b> Tự đánh giá 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/vi/7-feedback/"
+  title="Chia sẻ, đóng góp ý kiến"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/7-feedback/">
+     <b> 7. </b> Chia sẻ, đóng góp ý kiến 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/vi/3-blogstranslated/"
+  title=""
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/3-blogstranslated/">
+     
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.1-blog1/"
+  title="Blog 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/3-blogstranslated/3.1-blog1/">
+     <b> 3.1. </b> Blog 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.2-blog2/"
+  title="Blog 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/3-blogstranslated/3.2-blog2/">
+     <b> 3.2. </b> Blog 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.3-blog3/"
+  title="Blog 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/3-blogstranslated/3.3-blog3/">
+     <b> 3.3. </b> Blog 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.4-blog4/"
+  title="Blog 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/3-blogstranslated/3.4-blog4/">
+     <b> 3.4. </b> Blog 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.5-blog5/"
+  title="Blog 5"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/3-blogstranslated/3.5-blog5/">
+     <b> 3.5. </b> Blog 5 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.6-blog6/"
+  title="Blog 6"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../../vi/3-blogstranslated/3.6-blog6/">
+     <b> 3.6. </b> Blog 6 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+    
+    </ul>
+
+     
+    <section id="shortcuts">
+      <h3>
+        More
+      </h3>
+      <ul>
+        
+        <li>
+          <a class="padding" href="https://www.facebook.com/groups/awsstudygroupfcj/"
+            ><i class='fab fa-facebook'></i> AWS Study Group</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+     
+    <section id="prefooter">
+      <hr />
+      <ul>
+        
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+            <div class="select-style">
+              <select id="select-language" onchange="location = this.value;">
+                       
+                <option
+                  id="en"
+                  value="http://localhost:1313/hana353/aws_ojt_report-TranThiThuHa/4-eventparticipated/4.3-event3/"
+                >
+                  English
+                </option>
+                            
+                <option
+                  id="vi"
+                  value="http://localhost:1313/hana353/aws_ojt_report-TranThiThuHa/vi/4-eventparticipated/4.3-event3/"
+                  selected
+                >
+                  Tiếng Việt
+                </option>
+                   
+              </select>
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="255px"
+                height="255px"
+                viewBox="0 0 255 255"
+                style="enable-background: new 0 0 255 255"
+                xml:space="preserve"
+              >
+                <g>
+                  <g id="arrow-drop-down">
+                    <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </a>
+        </li>
+         
+        <li>
+          <a class="padding" href="#" data-clear-history-toggle=""
+            ><i class="fas fa-history fa-fw"></i> Clear History</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+    
+    <section id="footer"><left>
+    
+    <b> Workshop</b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7920860&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Migrate" Alt="web counter" border="0" /></a> <br>
+    <b> <a href="https://cloudjourney.awsstudygroup.com/">Cloud Journey</a></b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7830807&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Total CLoud Journey" Alt="web counter" border="0" />
+
+</left>
+<left>
+    <br>
+    <br>
+    <b>Last Updated</b><br>
+    <i>
+        <span id="lastUpdated" style="color:orange;"></span>
+    </i>
+
+    <script>
+        
+        const today = new Date();
+        
+        const formattedDate = today.toLocaleDateString('en-GB');
+        
+        document.getElementById('lastUpdated').textContent = formattedDate;
+    </script>
+</left>
+<left>
+    <br>
+    <br>
+    <b> Team </b> <br>
+
+    <i> <a href="https://www.facebook.com/groups/660548818043427" style="color:orange">First Cloud Journey </a> <br>
+
+    </i>
+</left>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script></section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='../../../vi/'>Báo cáo thực tập</a> > <a href='../../../vi/4-eventparticipated/'>Các events đã tham gia</a> > Event 3
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+  <div class="wrapper"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#tổng-quan-sự-kiện">Tổng quan sự kiện</a></li>
+    <li><a href="#mục-đích-sự-kiện">Mục đích sự kiện</a></li>
+    <li><a href="#tổng-quan-chương-trình">Tổng quan chương trình</a>
+      <ul>
+        <li><a href="#830--900--chào-mừng--giới-thiệu">8:30 – 9:00 | Chào mừng &amp; Giới thiệu</a></li>
+        <li><a href="#900--1030--tổng-quan-dịch-vụ-aws-aiml">9:00 – 10:30 | Tổng quan dịch vụ AWS AI/ML</a></li>
+        <li><a href="#1030--1045--nghỉ-giải-lao">10:30 – 10:45 | Nghỉ giải lao</a></li>
+        <li><a href="#1045--1200--generative-ai-với-amazon-bedrock">10:45 – 12:00 | Generative AI với Amazon Bedrock</a></li>
+      </ul>
+    </li>
+    <li><a href="#điểm-nổi-bật-chính">Điểm nổi bật chính</a>
+      <ul>
+        <li><a href="#nền-tảng-ml-toàn-diện">Nền tảng ML toàn diện</a></li>
+        <li><a href="#khả-năng-generative-ai">Khả năng Generative AI</a></li>
+        <li><a href="#kiến-trúc-rag">Kiến trúc RAG</a></li>
+        <li><a href="#mlops-sẵn-sàng-cho-production">MLOps sẵn sàng cho Production</a></li>
+        <li><a href="#an-toàn-là-ưu-tiên">An toàn là ưu tiên</a></li>
+      </ul>
+    </li>
+    <li><a href="#những-điều-học-được">Những điều học được</a>
+      <ul>
+        <li><a href="#insights-kỹ-thuật">Insights kỹ thuật</a></li>
+        <li><a href="#insights-chiến-lược">Insights chiến lược</a></li>
+      </ul>
+    </li>
+    <li><a href="#ứng-dụng-vào-công-việc">Ứng dụng vào công việc</a>
+      <ul>
+        <li><a href="#hành-động-ngay">Hành động ngay</a></li>
+        <li><a href="#chiến-lược-dài-hạn">Chiến lược dài hạn</a></li>
+      </ul>
+    </li>
+    <li><a href="#trải-nghiệm-cá-nhân">Trải nghiệm cá nhân</a>
+      <ul>
+        <li><a href="#học-hỏi-từ-các-demo">Học hỏi từ các demo</a></li>
+        <li><a href="#nhận-thức-chính">Nhận thức chính</a></li>
+        <li><a href="#tác-động-đến-sự-nghiệp-của-tôi">Tác động đến sự nghiệp của tôi</a></li>
+      </ul>
+    </li>
+    <li><a href="#điểm-chính-rút-ra">Điểm chính rút ra</a>
+      <ul>
+        <li><a href="#nguyên-tắc-chiến-lược">Nguyên tắc chiến lược</a></li>
+      </ul>
+    </li>
+    <li><a href="#hình-ảnh-sự-kiện">Hình ảnh sự kiện</a></li>
+  </ul>
+</nav></div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Event 3
+            </h1>
+          
+
+        
+
+
+
+	<h1 id="báo-cáo-sự-kiện-aimlgenai-on-aws-workshop">Báo cáo sự kiện: AI/ML/GenAI on AWS Workshop</h1>
+<h2 id="tổng-quan-sự-kiện">Tổng quan sự kiện</h2>
+<p><strong>Tên sự kiện:</strong> AI/ML/GenAI on AWS Workshop</p>
+<p><strong>Thời gian:</strong> Thứ Bảy, ngày 15 tháng 11 năm 2025, 8:30 – 12:00</p>
+<p><strong>Địa điểm:</strong> Văn phòng AWS Vietnam</p>
+<p><strong>Vai trò của tôi:</strong> Người tham dự</p>
+<hr>
+<h2 id="mục-đích-sự-kiện">Mục đích sự kiện</h2>
+<p>AI/ML/GenAI on AWS Workshop được thiết kế cẩn thận để cung cấp trải nghiệm thực hành toàn diện với các dịch vụ trí tuệ nhân tạo và machine learning của AWS. Sự kiện tập trung chiến lược vào hai lĩnh vực quan trọng:</p>
+<ul>
+<li><strong>Amazon SageMaker:</strong> Khám phá các workflow machine learning truyền thống, bao gồm hành trình hoàn chỉnh từ chuẩn bị dữ liệu đến triển khai và giám sát model</li>
+<li><strong>Amazon Bedrock:</strong> Đi sâu vào các ứng dụng generative AI, khám phá khả năng tiên tiến để xây dựng các giải pháp thông minh, được hỗ trợ bởi AI</li>
+</ul>
+<p>Mục tiêu chính của workshop là kết nối khoảng cách giữa hiểu biết lý thuyết và triển khai thực tế, trao quyền cho người tham dự để xây dựng, triển khai và quản lý các giải pháp AI/ML thực tế trên hạ tầng AWS.</p>
+<hr>
+<h2 id="tổng-quan-chương-trình">Tổng quan chương trình</h2>
+<h3 id="830--900--chào-mừng--giới-thiệu">8:30 – 9:00 | Chào mừng &amp; Giới thiệu</h3>
+<p>Workshop bắt đầu với phiên chào mừng hấp dẫn, thiết lập nền tảng cho trải nghiệm học tập tương tác:</p>
+<p><strong>Đăng ký &amp; Kết nối:</strong></p>
+<ul>
+<li>Quy trình đăng ký suôn sẻ với phân phối tài liệu workshop toàn diện</li>
+<li>Cơ hội networking giá trị kết nối với các người tham dự khác, chuyên gia kỹ thuật AWS và chuyên gia ngành</li>
+<li>Cuộc trò chuyện không chính thức về sở thích AI/ML, kinh nghiệm và nguyện vọng sự nghiệp</li>
+</ul>
+<p><strong>Tổng quan &amp; Mục tiêu Workshop:</strong></p>
+<ul>
+<li>Trình bày rõ ràng về mục tiêu học tập và kết quả mong đợi</li>
+<li>Hướng dẫn chi tiết về chương trình trong ngày và cấu trúc phiên</li>
+<li>Giới thiệu hệ sinh thái AWS AI/ML và tầm quan trọng ngày càng tăng trong chuyển đổi công nghệ của Việt Nam</li>
+</ul>
+<p><strong>Hoạt động phá băng:</strong></p>
+<ul>
+<li>Bài tập cộng tác được thiết kế để xây dựng kết nối giữa các người tham dự</li>
+<li>Thảo luận nhóm về use case AI/ML và thách thức theo ngành</li>
+<li>Thiết lập bầu không khí cộng tác, tương tác để chia sẻ kiến thức</li>
+</ul>
+<p><strong>Bối cảnh AI/ML tại Việt Nam:</strong></p>
+<ul>
+<li>Tổng quan về xu hướng áp dụng AI/ML hiện tại trong các doanh nghiệp Việt Nam</li>
+<li>Cơ hội thị trường và thách thức độc đáo trong bối cảnh Việt Nam</li>
+<li>Vai trò chiến lược của AWS trong việc hỗ trợ chuyển đổi số của Việt Nam thông qua đổi mới AI/ML</li>
+</ul>
+<h3 id="900--1030--tổng-quan-dịch-vụ-aws-aiml">9:00 – 10:30 | Tổng quan dịch vụ AWS AI/ML</h3>
+<p>Phiên toàn diện này cung cấp insights kỹ thuật sâu sắc về Amazon SageMaker, nền tảng machine learning được tích hợp đầy đủ của AWS.</p>
+<h4 id="amazon-sagemaker--nền-tảng-ml-hoàn-chỉnh">Amazon SageMaker – Nền tảng ML hoàn chỉnh</h4>
+<p><strong>Chuẩn bị dữ liệu và gán nhãn:</strong></p>
+<p>Phiên này bao gồm các kỹ thuật chuẩn bị dữ liệu thiết yếu cho thành công machine learning:</p>
+<ul>
+<li><strong>Phương pháp làm sạch dữ liệu:</strong> Hiểu các cách tiếp cận có hệ thống để chuẩn bị datasets, bao gồm xử lý giá trị thiếu, xác định và quản lý outliers, và giải quyết các vấn đề chất lượng dữ liệu có thể ảnh hưởng đến hiệu suất model</li>
+<li><strong>Chiến lược Feature Engineering:</strong> Học các phương pháp nâng cao để chuyển đổi dữ liệu thô thành các features có ý nghĩa, dự đoán để nâng cao độ chính xác và khả năng tổng quát hóa của model</li>
+<li><strong>Giải pháp gán nhãn tự động:</strong> Khám phá khả năng SageMaker Ground Truth để tạo datasets training chất lượng cao với can thiệp thủ công tối thiểu, giảm đáng kể chi phí và thời gian gán nhãn</li>
+<li><strong>Pipeline dữ liệu có thể mở rộng:</strong> Hiểu cách xây dựng các workflow tiền xử lý dữ liệu mạnh mẽ, có thể mở rộng để xử lý datasets quy mô lớn hiệu quả</li>
+</ul>
+<p><strong>Training, Tuning và Triển khai Model:</strong></p>
+<p>Bao phủ toàn diện vòng đời phát triển model:</p>
+<ul>
+<li><strong>Hạ tầng Training phân tán:</strong> Khám phá khả năng training phân tán mạnh mẽ của SageMaker để xử lý datasets khổng lồ và các deep learning models phức tạp trên nhiều instances</li>
+<li><strong>Tối ưu Hyperparameter tự động:</strong> Học cách tận dụng SageMaker Automatic Model Tuning để tìm hyperparameters tối ưu một cách có hệ thống, giảm thời gian thử nghiệm thủ công</li>
+<li><strong>Tùy chọn triển khai linh hoạt:</strong>
+<ul>
+<li><strong>Real-time Inference:</strong> Triển khai models cho dự đoán độ trễ thấp sử dụng SageMaker endpoints, phù hợp cho các ứng dụng tương tác</li>
+<li><strong>Batch Inference:</strong> Xử lý datasets lớn hiệu quả sử dụng batch transform jobs cho dự đoán hàng loạt hiệu quả về chi phí</li>
+<li><strong>Serverless Inference:</strong> Hiểu các tùy chọn triển khai hiệu quả về chi phí cho workloads biến đổi với auto-scaling</li>
+</ul>
+</li>
+<li><strong>Kỹ thuật tối ưu Model:</strong> Chiến lược để giảm kích thước model, cải thiện tốc độ inference và tối ưu chi phí mà không hy sinh độ chính xác</li>
+</ul>
+<p><strong>Khả năng MLOps tích hợp:</strong></p>
+<p>Vận hành machine learning sẵn sàng cho production:</p>
+<ul>
+<li><strong>Versioning và Registry Model:</strong> Học về SageMaker Model Registry để theo dõi toàn diện các phiên bản model, metadata và lineage</li>
+<li><strong>Giám sát Production:</strong> Hiểu cách giám sát hiệu suất model trong production sử dụng SageMaker Model Monitor, phát hiện data drift và suy giảm hiệu suất</li>
+<li><strong>Pipeline retraining tự động:</strong> Xây dựng CI/CD pipelines để cải thiện model liên tục, đảm bảo models luôn cập nhật với các pattern dữ liệu đang phát triển</li>
+<li><strong>Theo dõi thử nghiệm:</strong> Sử dụng SageMaker Experiments để theo dõi, so sánh và phân tích các lần training model khác nhau một cách có hệ thống</li>
+<li><strong>Quản trị Model:</strong> Best practices để quản lý vòng đời model hoàn chỉnh và đảm bảo tuân thủ quy định</li>
+</ul>
+<h4 id="demo-trực-tiếp-hướng-dẫn-sagemaker-studio">Demo trực tiếp: Hướng dẫn SageMaker Studio</h4>
+<p>Demo thể hiện SageMaker Studio, môi trường phát triển thống nhất cách mạng hóa workflow machine learning:</p>
+<p><strong>Tích hợp Jupyter Notebook:</strong></p>
+<ul>
+<li>Tích hợp liền mạch với Jupyter notebooks cho phát triển tương tác, khám phá</li>
+<li>Tính năng cộng tác cho phép các dự án ML dựa trên team với shared workspaces</li>
+<li>Môi trường được cấu hình sẵn với các framework ML phổ biến (TensorFlow, PyTorch, Scikit-learn) sẵn sàng sử dụng</li>
+</ul>
+<p><strong>Theo dõi thử nghiệm và Model Registry:</strong></p>
+<ul>
+<li>Giao diện trực quan trực quan để theo dõi thử nghiệm và so sánh metrics hiệu suất model</li>
+<li>Model registry tập trung để tổ chức, catalog và quản lý các models đã được training</li>
+<li>Công cụ so sánh dễ dàng để phân tích các phiên bản model khác nhau và đặc điểm hiệu suất của chúng</li>
+</ul>
+<p><strong>Visual Workflow Builder:</strong></p>
+<ul>
+<li>Giao diện kéo-thả để xây dựng MLOps pipelines phức tạp mà không cần coding nhiều</li>
+<li>Biểu diễn trực quan của các workflow xử lý dữ liệu, training và deployment</li>
+<li>Tích hợp với AWS Step Functions cho orchestration workflow tinh vi</li>
+</ul>
+<p><strong>Tích hợp dịch vụ AWS:</strong></p>
+<ul>
+<li>Tích hợp liền mạch với S3 cho lưu trữ và truy xuất dữ liệu có thể mở rộng</li>
+<li>Kết nối với các dịch vụ xử lý dữ liệu AWS (Glue, EMR, Athena) cho data pipelines toàn diện</li>
+<li>Tích hợp với CloudWatch cho giám sát, logging và cảnh báo toàn diện</li>
+</ul>
+<p><strong>Insight chính:</strong> SageMaker Studio loại bỏ nhu cầu truyền thống phải chuyển đổi giữa nhiều công cụ, cải thiện đáng kể năng suất developer và giảm thời gian từ khái niệm ban đầu đến model được triển khai, sẵn sàng cho production.</p>
+<h3 id="1030--1045--nghỉ-giải-lao">10:30 – 10:45 | Nghỉ giải lao</h3>
+<p>Khoảng nghỉ được tính toán kỹ lưỡng cung cấp cơ hội giá trị cho:</p>
+<ul>
+<li>Networking với các người tham dự khác và chuyên gia kỹ thuật AWS</li>
+<li>Thảo luận không chính thức về use case AI/ML, thách thức và giải pháp</li>
+<li>Đồ uống và cuộc trò chuyện thân mật về nội dung workshop và ứng dụng</li>
+<li>Chia sẻ kinh nghiệm và học hỏi từ góc nhìn của đồng nghiệp</li>
+</ul>
+<h3 id="1045--1200--generative-ai-với-amazon-bedrock">10:45 – 12:00 | Generative AI với Amazon Bedrock</h3>
+<p>Phiên này khám phá khả năng cách mạng của Amazon Bedrock để xây dựng các ứng dụng generative AI thế hệ tiếp theo.</p>
+<h4 id="foundation-models-claude-llama-titan--hướng-dẫn-so-sánh--lựa-chọn">Foundation Models: Claude, Llama, Titan – Hướng dẫn so sánh &amp; lựa chọn</h4>
+<p><strong>Hiểu về Foundation Models:</strong></p>
+<p>Phiên này cung cấp insights toàn diện về hệ sinh thái foundation model:</p>
+<ul>
+<li><strong>Tổng quan hệ sinh thái Model:</strong> Kiểm tra chi tiết các foundation models khác nhau có sẵn trên Bedrock, bao gồm Claude (Anthropic), Llama (Meta), Titan (AWS) và các models hàng đầu khác</li>
+<li><strong>Hiểu về kiến trúc:</strong> Hiểu các kiến trúc cơ bản và điểm mạnh, đặc điểm độc đáo của chúng</li>
+<li><strong>So sánh khả năng:</strong> So sánh có hệ thống khả năng model trên các tác vụ đa dạng bao gồm tạo văn bản, tóm tắt, trả lời câu hỏi và tạo code</li>
+</ul>
+<p><strong>Chiến lược lựa chọn Model:</strong></p>
+<p>Hướng dẫn thực tế để chọn model phù hợp:</p>
+<ul>
+<li><strong>Đặc điểm hiệu suất:</strong> So sánh models trên các benchmarks và use case thực tế khác nhau để hiểu trade-offs hiệu suất</li>
+<li><strong>Phù hợp use case:</strong> Hiểu models nào xuất sắc cho các ứng dụng cụ thể (ví dụ: viết sáng tạo, tài liệu kỹ thuật, tạo code)</li>
+<li><strong>Phân tích chi phí:</strong> Phân tích mô hình định giá, chi phí token và chiến lược tối ưu cho các models khác nhau</li>
+<li><strong>Latency và Throughput:</strong> So sánh tốc độ inference, khả năng mở rộng và đặc điểm thời gian phản hồi</li>
+</ul>
+<p><strong>Best practices cho lựa chọn Model:</strong></p>
+<ul>
+<li>Tiêu chí để chọn model tối ưu dựa trên nhu cầu và yêu cầu kinh doanh cụ thể</li>
+<li>Cân bằng yêu cầu hiệu suất, chi phí và latency để tìm sự phù hợp đúng</li>
+<li>Chiến lược thử nghiệm với nhiều models để xác định lựa chọn tốt nhất</li>
+<li>Khi nào sử dụng nhiều models cho các thành phần khác nhau của một ứng dụng</li>
+</ul>
+<p><strong>Chiến lược tối ưu chi phí:</strong></p>
+<ul>
+<li>Hiểu mô hình định giá và chi phí dựa trên token cho các foundation models khác nhau</li>
+<li>Kỹ thuật giảm chi phí inference thông qua caching, batching và thiết kế prompt hiệu quả</li>
+<li>Chiến lược caching cho prompts và responses thường xuyên sử dụng</li>
+<li>Cách tiếp cận batch processing cho scaling hiệu quả về chi phí</li>
+</ul>
+<h4 id="prompt-engineering-kỹ-thuật-chain-of-thought-reasoning-few-shot-learning">Prompt Engineering: Kỹ thuật, Chain-of-Thought Reasoning, Few-shot Learning</h4>
+<p><strong>Nguyên tắc cơ bản Prompt Engineering:</strong></p>
+<p>Thành thạo nghệ thuật thiết kế prompt hiệu quả:</p>
+<ul>
+<li><strong>Tạo Prompts hiệu quả:</strong> Học các cách tiếp cận có hệ thống để thiết kế prompts tạo ra outputs mong muốn từ language models</li>
+<li><strong>Tác động cấu trúc Prompt:</strong> Hiểu mối quan hệ quan trọng giữa cấu trúc prompt, độ rõ ràng và chất lượng phản hồi model</li>
+<li><strong>Kỹ thuật cải thiện:</strong> Phương pháp để nâng cao độ rõ ràng, cụ thể và hiệu quả của prompt</li>
+<li><strong>Cạm bẫy phổ biến:</strong> Xác định và tránh các sai lầm thường gặp trong thiết kế prompt dẫn đến kết quả kém</li>
+</ul>
+<p><strong>Chain-of-Thought Reasoning:</strong></p>
+<p>Kỹ thuật lý luận nâng cao cho giải quyết vấn đề phức tạp:</p>
+<ul>
+<li><strong>Hướng dẫn từng bước:</strong> Hiểu cách hướng dẫn models qua các quy trình lý luận có cấu trúc, từng bước</li>
+<li><strong>Phân rã vấn đề:</strong> Kỹ thuật để chia nhỏ các vấn đề phức tạp thành các bước có thể quản lý, tuần tự</li>
+<li><strong>Ví dụ thực tế:</strong> Ví dụ thực tế về chain-of-thought prompting cho các tác vụ toán học, logic và phân tích</li>
+<li><strong>Cải thiện độ chính xác:</strong> Cách chain-of-thought reasoning cải thiện đáng kể độ chính xác model trên các tác vụ lý luận phức tạp</li>
+</ul>
+<p><strong>Few-shot Learning:</strong></p>
+<p>Tận dụng ví dụ để nâng cao hiệu suất model:</p>
+<ul>
+<li><strong>Học dựa trên ví dụ:</strong> Kỹ thuật cung cấp ví dụ chiến lược để cải thiện hiệu suất model trên các tác vụ cụ thể</li>
+<li><strong>Ảnh hưởng ví dụ:</strong> Hiểu cách few-shot examples định hình và ảnh hưởng hành vi model</li>
+<li><strong>Best practices:</strong> Hướng dẫn cho việc chọn, định dạng và sắp xếp ví dụ để tối đa hóa hiệu quả</li>
+<li><strong>Khi nào sử dụng:</strong> Xác định khi nào few-shot learning hiệu quả hơn fine-tuning cho các use case cụ thể</li>
+<li><strong>Chất lượng vs. Số lượng:</strong> Cân bằng số lượng và chất lượng ví dụ cho kết quả tối ưu</li>
+</ul>
+<p><strong>Kỹ thuật Prompting nâng cao:</strong></p>
+<ul>
+<li>Role-based prompting cho outputs nhất quán, phù hợp với nhân vật</li>
+<li>Cách tiếp cận template-based cho outputs có cấu trúc, dự đoán được</li>
+<li>Prompt chaining cho các tác vụ phức tạp, nhiều bước</li>
+<li>Xử lý lỗi và chiến lược retry cho ứng dụng mạnh mẽ</li>
+</ul>
+<h4 id="retrieval-augmented-generation-rag-kiến-trúc--tích-hợp-knowledge-base">Retrieval-Augmented Generation (RAG): Kiến trúc &amp; Tích hợp Knowledge Base</h4>
+<p><strong>Tổng quan kiến trúc RAG:</strong></p>
+<p>Hiểu pattern RAG và tác động chuyển đổi của nó:</p>
+<ul>
+<li><strong>Nguyên tắc cơ bản RAG:</strong> Hiểu cách RAG kết hợp một cách tinh tế việc truy xuất thông tin với khả năng generative</li>
+<li><strong>Vai trò Vector Database:</strong> Vai trò quan trọng của vector databases trong hệ thống RAG cho semantic search và retrieval</li>
+<li><strong>Cải thiện độ chính xác:</strong> Cách RAG cải thiện đáng kể độ chính xác và giảm hallucinations so với generation độc lập</li>
+<li><strong>So sánh với Fine-tuning:</strong> So sánh cách tiếp cận RAG với các phương pháp fine-tuning truyền thống</li>
+</ul>
+<p><strong>Tích hợp Knowledge Base:</strong></p>
+<p>Triển khai thực tế knowledge bases:</p>
+<ul>
+<li><strong>Tích hợp Vector Database:</strong> Học cách kết nối Bedrock với vector databases và knowledge bases</li>
+<li><strong>Amazon OpenSearch:</strong> Sử dụng OpenSearch như một vector store mạnh mẽ cho ứng dụng RAG với khả năng semantic search</li>
+<li><strong>Amazon Kendra:</strong> Tận dụng khả năng intelligent search và quản lý kiến thức của Kendra</li>
+<li><strong>Knowledge Bases tùy chỉnh:</strong> Xây dựng knowledge bases tùy chỉnh sử dụng S3 và vector databases cho ứng dụng theo domain</li>
+<li><strong>Thu thập dữ liệu:</strong> Best practices để thu thập, xử lý và indexing documents hiệu quả</li>
+</ul>
+<p><strong>Pattern triển khai:</strong></p>
+<ul>
+<li>Best practices để xây dựng ứng dụng RAG cung cấp responses chính xác, nhận biết ngữ cảnh</li>
+<li>Chiến lược chunking documents cho hiệu suất retrieval tối ưu</li>
+<li>Tạo, lưu trữ và tối ưu embeddings</li>
+<li>Chiến lược retrieval nâng cao và ranking algorithms</li>
+<li>Kỹ thuật tạo response kết hợp hiệu quả retrieved context</li>
+</ul>
+<p><strong>Tối ưu RAG:</strong></p>
+<ul>
+<li>Chiến lược cải thiện độ chính xác và relevance của retrieval</li>
+<li>Kỹ thuật giảm latency trong hệ thống RAG</li>
+<li>Cách tiếp cận tối ưu chi phí cho ứng dụng RAG</li>
+<li>Metrics giám sát và đánh giá cho hiệu suất RAG</li>
+</ul>
+<h4 id="bedrock-agents-workflows-nhiều-bước-và-tích-hợp-công-cụ">Bedrock Agents: Workflows nhiều bước và Tích hợp công cụ</h4>
+<p><strong>Kiến trúc Agent:</strong></p>
+<p>Hiểu khả năng agent thông minh:</p>
+<ul>
+<li><strong>Orchestration Workflow:</strong> Hiểu cách Bedrock Agents có thể điều phối các workflows phức tạp, nhiều bước một cách thông minh</li>
+<li><strong>Phân rã tác vụ:</strong> Vai trò của agents trong việc chia nhỏ các tác vụ phức tạp thành các bước có thể quản lý</li>
+<li><strong>Ra quyết định:</strong> Khả năng ra quyết định và lập kế hoạch của agents cho hoạt động tự chủ</li>
+<li><strong>So sánh với cách tiếp cận đơn giản:</strong> Hiểu khi nào agents cung cấp giá trị so với các cách tiếp cận dựa trên prompt đơn giản</li>
+</ul>
+<p><strong>Tích hợp công cụ:</strong></p>
+<p>Kết nối agents với hệ thống bên ngoài:</p>
+<ul>
+<li><strong>Tích hợp API bên ngoài:</strong> Học cách kết nối agents với APIs bên ngoài, databases và dịch vụ AWS</li>
+<li><strong>Phát triển công cụ tùy chỉnh:</strong> Xây dựng công cụ tùy chỉnh cho agents để mở rộng chức năng</li>
+<li><strong>Tích hợp Lambda:</strong> Tích hợp với Lambda functions cho business logic tùy chỉnh</li>
+<li><strong>Kết nối Database:</strong> Kết nối với các databases và nguồn dữ liệu khác nhau</li>
+<li><strong>Pattern tích hợp API:</strong> Best practices cho tích hợp API đáng tin cậy</li>
+</ul>
+<p><strong>Thiết kế Workflow:</strong></p>
+<ul>
+<li>Patterns để thiết kế ứng dụng dựa trên agent xử lý các yêu cầu người dùng phức tạp một cách tinh tế</li>
+<li>Xử lý cuộc trò chuyện nhiều lượt và quản lý ngữ cảnh</li>
+<li>Chiến lược phục hồi lỗi và fallback cho ứng dụng mạnh mẽ</li>
+<li>Quản lý trạng thái trong workflows agent</li>
+<li>Cân nhắc trải nghiệm người dùng cho tương tác agent</li>
+</ul>
+<p><strong>Khả năng Agent:</strong></p>
+<ul>
+<li>Lập kế hoạch và thực thi tác vụ thông minh</li>
+<li>Lựa chọn và sử dụng công cụ động</li>
+<li>Tinh chỉnh lặp lại responses dựa trên phản hồi</li>
+<li>Xử lý yêu cầu người dùng mơ hồ và không đầy đủ</li>
+</ul>
+<h4 id="guardrails-an-toàn-và-lọc-nội-dung">Guardrails: An toàn và Lọc nội dung</h4>
+<p><strong>An toàn nội dung:</strong></p>
+<p>Đảm bảo ứng dụng AI an toàn:</p>
+<ul>
+<li><strong>Bedrock Guardrails:</strong> Hiểu Bedrock Guardrails để lọc toàn diện nội dung có hại hoặc không phù hợp</li>
+<li><strong>Bộ lọc được xây dựng sẵn:</strong> Khám phá các bộ lọc an toàn được xây dựng sẵn và khả năng của chúng</li>
+<li><strong>Lọc thời gian thực:</strong> Lọc nội dung thời gian thực trong quá trình inference để ngăn chặn outputs có hại</li>
+<li><strong>Chiến lược chặn:</strong> Chiến lược chặn và lọc hiệu quả cho các loại nội dung khác nhau</li>
+</ul>
+<p><strong>Chính sách tùy chỉnh:</strong></p>
+<p>Tùy chỉnh an toàn theo nhu cầu kinh doanh:</p>
+<ul>
+<li><strong>Cấu hình tùy chỉnh:</strong> Học cách cấu hình bộ lọc nội dung tùy chỉnh dựa trên yêu cầu kinh doanh cụ thể</li>
+<li><strong>Định nghĩa chính sách:</strong> Định nghĩa chính sách guardrail tùy chỉnh cho nhu cầu theo ngành</li>
+<li><strong>Yêu cầu tuân thủ:</strong> Giải quyết yêu cầu tuân thủ theo ngành cụ thể</li>
+<li><strong>Tối ưu cân bằng:</strong> Cân bằng các biện pháp an toàn với chức năng ứng dụng</li>
+</ul>
+<p><strong>Tuân thủ và Quản trị:</strong></p>
+<ul>
+<li>Best practices để đảm bảo ứng dụng AI đáp ứng các tiêu chuẩn quy định và đạo đức</li>
+<li>Audit trails và logging toàn diện để xác minh tuân thủ</li>
+<li>Cân nhắc quyền riêng tư dữ liệu và tuân thủ GDPR</li>
+<li>Thực hành AI đạo đức và phát triển AI có trách nhiệm</li>
+<li>Framework tuân thủ quy định (GDPR, CCPA, v.v.)</li>
+</ul>
+<p><strong>Best practices triển khai:</strong></p>
+<ul>
+<li>Tích hợp guardrails liền mạch vào ứng dụng</li>
+<li>Chiến lược testing và xác thực cho hiệu quả guardrail</li>
+<li>Giám sát hiệu suất và hiệu quả guardrail</li>
+<li>Cải thiện liên tục các biện pháp an toàn dựa trên sử dụng thực tế</li>
+</ul>
+<h4 id="demo-trực-tiếp-xây-dựng-chatbot-generative-ai-sử-dụng-bedrock">Demo trực tiếp: Xây dựng Chatbot Generative AI sử dụng Bedrock</h4>
+<p>Demo cung cấp hướng dẫn hoàn chỉnh, end-to-end về xây dựng ứng dụng chatbot sẵn sàng cho production:</p>
+<p><strong>Thiết lập Bedrock Foundation Model:</strong></p>
+<ul>
+<li>Chọn và cấu hình foundation model phù hợp cho use case</li>
+<li>Thiết lập tham số model và cài đặt inference cho hiệu suất tối ưu</li>
+<li>Hiểu khả năng, giới hạn và best use cases của model</li>
+</ul>
+<p><strong>Triển khai RAG với tích hợp Knowledge Base:</strong></p>
+<ul>
+<li>Tạo knowledge base toàn diện với documents liên quan</li>
+<li>Thiết lập vector embeddings và cơ chế retrieval hiệu quả</li>
+<li>Tích hợp RAG liền mạch vào workflow chatbot</li>
+<li>Testing và xác thực độ chính xác retrieval</li>
+</ul>
+<p><strong>Cấu hình Bedrock Agents:</strong></p>
+<ul>
+<li>Thiết lập agents thông minh cho cuộc trò chuyện nhiều lượt tinh vi</li>
+<li>Định nghĩa công cụ, khả năng và logic ra quyết định của agents</li>
+<li>Cấu hình hành vi, tính cách và phong cách phản hồi của agents</li>
+<li>Triển khai quản lý ngữ cảnh cuộc trò chuyện</li>
+</ul>
+<p><strong>Thêm Guardrails:</strong></p>
+<ul>
+<li>Triển khai bộ lọc an toàn nội dung toàn diện</li>
+<li>Cấu hình chính sách guardrail tùy chỉnh cho yêu cầu cụ thể</li>
+<li>Testing hiệu quả guardrail với các inputs khác nhau</li>
+<li>Cân bằng biện pháp an toàn với trải nghiệm người dùng</li>
+</ul>
+<p><strong>Triển khai Chatbot:</strong></p>
+<ul>
+<li>Kiến trúc triển khai và cân nhắc khả năng mở rộng</li>
+<li>Tích hợp với ứng dụng frontend và giao diện người dùng</li>
+<li>Thiết lập giám sát và logging toàn diện</li>
+<li>Chiến lược scaling cho production workloads</li>
+</ul>
+<p><strong>Insight chính:</strong> Demo chứng minh rằng xây dựng các ứng dụng AI tinh vi, sẵn sàng cho production hiện dễ tiếp cận hơn bao giờ hết, với AWS cung cấp các công cụ và hạ tầng toàn diện cần thiết để chuyển đổi khái niệm thành các giải pháp được triển khai một cách nhanh chóng.</p>
+<hr>
+<h2 id="điểm-nổi-bật-chính">Điểm nổi bật chính</h2>
+<h3 id="nền-tảng-ml-toàn-diện">Nền tảng ML toàn diện</h3>
+<p><strong>Giải pháp End-to-End của SageMaker:</strong></p>
+<p>SageMaker cung cấp giải pháp hoàn chỉnh, tích hợp cho machine learning bao gồm mọi giai đoạn từ khám phá dữ liệu ban đầu đến triển khai production và giám sát liên tục. Nền tảng toàn diện này loại bỏ sự phức tạp của việc tích hợp nhiều công cụ khác nhau, giảm đáng kể overhead vận hành và cải thiện năng suất team.</p>
+<p><strong>Lợi ích chính:</strong></p>
+<ul>
+<li>Giao diện thống nhất tối ưu hóa toàn bộ vòng đời ML</li>
+<li>Khả năng MLOps tích hợp cho triển khai production đáng tin cậy</li>
+<li>Hạ tầng có thể mở rộng xử lý liền mạch mọi thứ từ thử nghiệm đến production workloads</li>
+<li>Best practices, tính năng bảo mật và công cụ tuân thủ được tích hợp sẵn</li>
+</ul>
+<h3 id="khả-năng-generative-ai">Khả năng Generative AI</h3>
+<p><strong>Truy cập Foundation Model của Amazon Bedrock:</strong></p>
+<p>Amazon Bedrock cung cấp truy cập linh hoạt vào nhiều foundation models tiên tiến, cho phép thử nghiệm dễ dàng và lựa chọn thông minh model tối ưu cho mỗi use case cụ thể. Tính linh hoạt này rất quan trọng để xây dựng ứng dụng đáp ứng chính xác các yêu cầu kinh doanh độc đáo.</p>
+<p><strong>Ưu điểm:</strong></p>
+<ul>
+<li>Nhiều tùy chọn model không bị ràng buộc nhà cung cấp, cung cấp tính linh hoạt và lựa chọn</li>
+<li>Thử nghiệm và so sánh dễ dàng giữa các models khác nhau</li>
+<li>Truy cập hiệu quả về chi phí vào các models tiên tiến mà không cần đầu tư hạ tầng</li>
+<li>Giao diện API nhất quán trên các models khác nhau, đơn giản hóa tích hợp</li>
+</ul>
+<h3 id="kiến-trúc-rag">Kiến trúc RAG</h3>
+<p><strong>Ứng dụng AI tăng cường kiến thức:</strong></p>
+<p>Pattern RAG cho phép xây dựng các ứng dụng AI tinh vi có thể truy cập và sử dụng các knowledge bases cụ thể, liên quan đến domain, cải thiện đáng kể độ chính xác và relevance. Kiến trúc này rất cần thiết cho các ứng dụng cần cung cấp thông tin chính xác, cập nhật và phù hợp với ngữ cảnh.</p>
+<p><strong>Lợi ích:</strong></p>
+<ul>
+<li>Truy cập kiến thức cụ thể, theo domain mà không cần retrain model</li>
+<li>Giảm đáng kể hallucinations và cải thiện độ chính xác thực tế</li>
+<li>Không cần fine-tuning model tốn kém và mất thời gian</li>
+<li>Dễ dàng cập nhật knowledge bases khi thông tin phát triển</li>
+</ul>
+<h3 id="mlops-sẵn-sàng-cho-production">MLOps sẵn sàng cho Production</h3>
+<p><strong>MLOps tích hợp của SageMaker:</strong></p>
+<p>Khả năng MLOps toàn diện của SageMaker đơn giản hóa quy trình phức tạp của việc triển khai và duy trì ML models trong môi trường production. Điều này rất quan trọng cho các tổ chức cần hệ thống ML đáng tin cậy, có thể mở rộng và dễ bảo trì.</p>
+<p><strong>Tính năng:</strong></p>
+<ul>
+<li>Versioning model tự động và theo dõi toàn diện</li>
+<li>Giám sát production với cảnh báo tự động</li>
+<li>Pipeline retraining tự động để cải thiện liên tục</li>
+<li>Quản trị model và quản lý tuân thủ</li>
+</ul>
+<h3 id="an-toàn-là-ưu-tiên">An toàn là ưu tiên</h3>
+<p><strong>Bedrock Guardrails:</strong></p>
+<p>Bedrock Guardrails đảm bảo rằng các ứng dụng generative AI an toàn, tuân thủ và phù hợp với giá trị kinh doanh và tiêu chuẩn đạo đức. Điều này rất cần thiết để triển khai ứng dụng AI trong môi trường production nơi an toàn và niềm tin là tối quan trọng.</p>
+<p><strong>Tầm quan trọng:</strong></p>
+<ul>
+<li>Bảo vệ người dùng khỏi nội dung có hại, không phù hợp hoặc thiên vị</li>
+<li>Đảm bảo tuân thủ quy định và bảo vệ pháp lý</li>
+<li>Duy trì danh tiếng thương hiệu và niềm tin người dùng</li>
+<li>Xây dựng niềm tin vào các ứng dụng được hỗ trợ bởi AI</li>
+</ul>
+<hr>
+<h2 id="những-điều-học-được">Những điều học được</h2>
+<h3 id="insights-kỹ-thuật">Insights kỹ thuật</h3>
+<ol>
+<li>
+<p><strong>Năng suất SageMaker Studio:</strong>
+SageMaker Studio cung cấp giao diện thống nhất cho toàn bộ vòng đời ML, cải thiện đáng kể năng suất developer. Khả năng làm việc trong một môi trường tích hợp duy nhất loại bỏ việc chuyển đổi ngữ cảnh, giảm thời gian thiết lập và tối ưu hóa workflow phát triển từ thử nghiệm đến production.</p>
+</li>
+<li>
+<p><strong>Lựa chọn Foundation Model:</strong>
+Lựa chọn foundation model rất quan trọng và phụ thuộc nhiều vào use case cụ thể, yêu cầu hiệu suất và ràng buộc chi phí. Không có giải pháp phổ quát, và thử nghiệm có hệ thống là thiết yếu để xác định model tối ưu cho mỗi ứng dụng.</p>
+</li>
+<li>
+<p><strong>Tầm quan trọng Prompt Engineering:</strong>
+Prompt engineering là kỹ năng quan trọng có thể cải thiện đáng kể outputs model mà không cần fine-tuning tốn kém. Prompts được tạo tốt có thể chuyển đổi kết quả trung bình thành hiệu suất xuất sắc, làm cho kỹ năng này thiết yếu cho AI developers.</p>
+</li>
+<li>
+<p><strong>Tính thiết yếu kiến trúc RAG:</strong>
+Kiến trúc RAG rất cần thiết để xây dựng ứng dụng AI cần truy cập thông tin cụ thể, cập nhật. Pattern này đang nhanh chóng trở thành tiêu chuẩn cho ứng dụng tập trung vào kiến thức, cung cấp độ chính xác và relevance mà các models độc lập không thể so sánh.</p>
+</li>
+<li>
+<p><strong>Sự tinh vi của Bedrock Agents:</strong>
+Bedrock Agents cho phép xây dựng ứng dụng AI tinh vi có thể xử lý các workflows phức tạp, nhiều bước một cách tự chủ. Khả năng này mở ra khả năng xây dựng ứng dụng thực sự thông minh có thể lý luận, lập kế hoạch và thực thi các tác vụ phức tạp.</p>
+</li>
+<li>
+<p><strong>Ưu tiên an toàn nội dung:</strong>
+An toàn nội dung phải được xem xét ngay từ đầu khi xây dựng ứng dụng generative AI. Guardrails nên được tích hợp vào kiến trúc thiết kế, không được thêm vào như một suy nghĩ sau, để đảm bảo bảo vệ toàn diện.</p>
+</li>
+</ol>
+<h3 id="insights-chiến-lược">Insights chiến lược</h3>
+<ol>
+<li>
+<p><strong>Bắt đầu với Use Cases:</strong>
+Luôn bắt đầu bằng cách xác định các vấn đề và yêu cầu kinh doanh cụ thể trước khi chọn giải pháp AI/ML. Công nghệ nên phục vụ mục tiêu kinh doanh, không phải thúc đẩy chúng. Hiểu sâu vấn đề dẫn đến lựa chọn và triển khai giải pháp tốt hơn.</p>
+</li>
+<li>
+<p><strong>Foundation Models mạnh mẽ:</strong>
+Pre-trained foundation models có thể giải quyết nhiều vấn đề hiệu quả mà không cần training tùy chỉnh, giảm đáng kể time-to-market và chi phí phát triển. Tận dụng các models này một cách thông minh có thể tăng tốc đổi mới.</p>
+</li>
+<li>
+<p><strong>RAG là thiết yếu:</strong>
+Đối với ứng dụng yêu cầu kiến thức cụ thể hoặc chuyên môn domain, kiến trúc RAG là cách tiếp cận tối ưu. Nó cung cấp độ chính xác, relevance và khả năng cập nhật cần thiết cho ứng dụng production mà không có sự phức tạp và chi phí của fine-tuning model.</p>
+</li>
+<li>
+<p><strong>MLOps quan trọng:</strong>
+Thực hành MLOps đúng đắn rất quan trọng để duy trì ML models trong production. Không có MLOps mạnh mẽ, models có thể suy giảm theo thời gian, trở nên không đáng tin cậy và không đạt được giá trị kinh doanh mong đợi.</p>
+</li>
+<li>
+<p><strong>An toàn không thể bỏ qua:</strong>
+Lọc nội dung và biện pháp an toàn phải được tích hợp từ giai đoạn thiết kế. Giải quyết an toàn như một suy nghĩ sau có thể dẫn đến vấn đề đáng kể, vấn đề tuân thủ và thiệt hại cho danh tiếng thương hiệu.</p>
+</li>
+<li>
+<p><strong>Học tập liên tục:</strong>
+Bối cảnh AI/ML phát triển với tốc độ chưa từng có, đòi hỏi học tập, thử nghiệm và thích ứng liên tục. Luôn cập nhật với các models, kỹ thuật và best practices mới là thiết yếu cho thành công lâu dài trong lĩnh vực đang thay đổi nhanh chóng này.</p>
+</li>
+</ol>
+<hr>
+<h2 id="ứng-dụng-vào-công-việc">Ứng dụng vào công việc</h2>
+<p>Dựa trên insights toàn diện thu được từ workshop này, tôi dự định áp dụng các chiến lược sau trong kỳ thực tập và các dự án tương lai:</p>
+<h3 id="hành-động-ngay">Hành động ngay</h3>
+<ol>
+<li>
+<p><strong>Thử nghiệm với SageMaker:</strong></p>
+<ul>
+<li>Thiết lập SageMaker Studio để khám phá phát triển ML model cho các dự án phân tích dữ liệu và predictive analytics</li>
+<li>Xây dựng ML pipelines end-to-end thể hiện workflow hoàn chỉnh từ dữ liệu đến deployment</li>
+<li>Thử nghiệm với các algorithms khác nhau, hyperparameter tuning và kỹ thuật tối ưu model</li>
+</ul>
+</li>
+<li>
+<p><strong>Xây dựng ứng dụng RAG:</strong></p>
+<ul>
+<li>Triển khai kiến trúc RAG sử dụng Bedrock và knowledge bases cho ứng dụng thực tế</li>
+<li>Tạo hệ thống Q&amp;A tài liệu nội bộ có thể trả lời câu hỏi về quy trình và chính sách công ty</li>
+<li>Xây dựng knowledge assistants theo domain có thể cung cấp thông tin chính xác, nhận biết ngữ cảnh</li>
+</ul>
+</li>
+<li>
+<p><strong>Thực hành Prompt Engineering:</strong></p>
+<ul>
+<li>Phát triển kỹ năng prompt engineering bằng cách tạo templates và best practices cho use cases phổ biến</li>
+<li>Xây dựng thư viện prompts hiệu quả có thể tái sử dụng trên các dự án</li>
+<li>Thực hành kỹ thuật chain-of-thought và few-shot learning để cải thiện outputs model</li>
+</ul>
+</li>
+<li>
+<p><strong>Tích hợp MLOps:</strong></p>
+<ul>
+<li>Áp dụng khả năng MLOps của SageMaker để tự động hóa pipeline training và deployment model</li>
+<li>Thiết lập giám sát model và pipeline retraining tự động để cải thiện liên tục</li>
+<li>Triển khai thực hành CI/CD cho ML models để đảm bảo triển khai đáng tin cậy, có thể lặp lại</li>
+</ul>
+</li>
+<li>
+<p><strong>Triển khai an toàn:</strong></p>
+<ul>
+<li>Tích hợp Bedrock Guardrails vào bất kỳ ứng dụng generative AI nào tôi phát triển</li>
+<li>Phát triển chính sách guardrail tùy chỉnh phù hợp với use cases và yêu cầu cụ thể</li>
+<li>Đảm bảo cân nhắc tuân thủ và an toàn được giải quyết từ giai đoạn thiết kế</li>
+</ul>
+</li>
+</ol>
+<h3 id="chiến-lược-dài-hạn">Chiến lược dài hạn</h3>
+<ol>
+<li>
+<p><strong>Phát triển kỹ năng AI/ML:</strong></p>
+<ul>
+<li>Học tập liên tục về các foundation models mới và khả năng đang phát triển của chúng</li>
+<li>Luôn cập nhật với best practices trong prompt engineering và tối ưu RAG</li>
+<li>Khám phá các patterns và kỹ thuật nâng cao để xây dựng ứng dụng AI tinh vi</li>
+</ul>
+</li>
+<li>
+<p><strong>Triển khai Production:</strong></p>
+<ul>
+<li>Học cách triển khai ML models và ứng dụng GenAI vào môi trường production</li>
+<li>Hiểu chiến lược scaling, tối ưu chi phí và performance tuning</li>
+<li>Thành thạo giám sát, bảo trì và cải thiện liên tục hệ thống AI</li>
+</ul>
+</li>
+<li>
+<p><strong>Thực hành AI đạo đức:</strong></p>
+<ul>
+<li>Phát triển chuyên môn về an toàn AI, tuân thủ và cân nhắc đạo đức</li>
+<li>Hiểu yêu cầu quy định cho ứng dụng AI trong các ngành khác nhau</li>
+<li>Đóng góp vào việc xây dựng hệ thống AI có trách nhiệm, đáng tin cậy</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="trải-nghiệm-cá-nhân">Trải nghiệm cá nhân</h2>
+<p>Workshop này cung cấp giới thiệu thực hành xuất sắc về các dịch vụ AWS AI/ML, kết hợp một cách điêu luyện kiến thức lý thuyết với demo thực tế và các kịch bản ứng dụng thực tế.</p>
+<h3 id="học-hỏi-từ-các-demo">Học hỏi từ các demo</h3>
+<p><strong>Demo SageMaker Studio:</strong></p>
+<p>Demo SageMaker Studio đặc biệt ấn tượng và mở mang tầm mắt. Nó thể hiện cách một nền tảng thống nhất có thể tối ưu hóa đáng kể toàn bộ ML workflow, từ khám phá dữ liệu ban đầu qua triển khai model. Khả năng làm việc trong một môi trường tích hợp duy nhất loại bỏ ma sát truyền thống của việc chuyển đổi giữa nhiều công cụ. Visual workflow builder và khả năng MLOps tích hợp thể hiện cách các nền tảng ML hiện đại có thể giảm đáng kể sự phức tạp của việc xây dựng hệ thống ML production, làm cho ML nâng cao dễ tiếp cận hơn cho phạm vi rộng hơn của developers.</p>
+<p><strong>Hiểu về kiến trúc RAG:</strong></p>
+<p>Học về kiến trúc RAG là chuyển đổi. Các ví dụ thực tế đã chứng minh rõ ràng cách xây dựng ứng dụng AI có thể tận dụng knowledge bases cụ thể một cách hiệu quả. Phiên này cho thấy cách RAG có thể cung cấp responses chính xác, nhận biết ngữ cảnh bằng cách kết hợp thông minh việc truy xuất thông tin với khả năng generative. Hiểu biết này rất quan trọng để xây dựng ứng dụng AI cần cung cấp thông tin chính xác, theo domain, điều này rất cần thiết cho hầu hết các ứng dụng kinh doanh thực tế.</p>
+<p><strong>Demo Bedrock Agents:</strong></p>
+<p>Demo Bedrock Agents tiết lộ tiềm năng to lớn để xây dựng ứng dụng AI tinh vi có thể xử lý các workflows phức tạp, nhiều bước một cách tự chủ. Nhìn thấy cách agents có thể chia nhỏ các tác vụ phức tạp, chọn và sử dụng công cụ thông minh, và điều phối các quy trình nhiều bước là truyền cảm hứng. Khả năng này mở ra khả năng xây dựng ứng dụng thực sự thông minh có thể xử lý sự phức tạp thực tế, vượt ra ngoài trả lời câu hỏi đơn giản đến giải quyết vấn đề tinh vi.</p>
+<p><strong>Tập trung Prompt Engineering:</strong></p>
+<p>Tập trung thực tế vào prompt engineering cung cấp kỹ năng có thể áp dụng ngay lập tức cho làm việc với language models. Học các kỹ thuật như chain-of-thought reasoning và few-shot learning đã cho tôi các công cụ cụ thể, có thể hành động để cải thiện đáng kể outputs model. Nhấn mạnh vào prompt engineering như một kỹ năng quan trọng làm nổi bật rằng làm việc hiệu quả với AI models đòi hỏi cả kiến thức kỹ thuật và khả năng giải quyết vấn đề sáng tạo.</p>
+<p><strong>Hiểu về Guardrails:</strong></p>
+<p>Hiểu về Guardrails giúp tôi đánh giá cao tầm quan trọng cơ bản của an toàn và tuân thủ trong ứng dụng AI. Demo cho thấy cách guardrails có thể được tích hợp liền mạch trong khi duy trì chức năng ứng dụng và trải nghiệm người dùng. Điều này củng cố rằng xây dựng AI có trách nhiệm không chỉ về công nghệ mà đòi hỏi thiết kế cẩn thận, triển khai cẩn thận và giám sát liên tục.</p>
+<h3 id="nhận-thức-chính">Nhận thức chính</h3>
+<p><strong>Khả năng tiếp cận AI/ML:</strong></p>
+<p>Workshop chứng minh rằng xây dựng ứng dụng AI/ML hiện dễ tiếp cận hơn bao giờ hết. AWS cung cấp các công cụ và hạ tầng toàn diện cần thiết để chuyển đổi khái niệm thành hệ thống production mà không cần chuyên môn sâu trong mọi khía cạnh của ML. Sự dân chủ hóa AI này trao quyền cho developers ở mọi cấp độ, cho phép đổi mới trước đây bị giới hạn cho các team chuyên biệt.</p>
+<p><strong>Tầm quan trọng của kiến trúc:</strong></p>
+<p>Workshop củng cố rằng chọn kiến trúc đúng (RAG, agents, v.v.) rất quan trọng để xây dựng ứng dụng AI hiệu quả. Hiểu khi nào sử dụng các patterns khác nhau, cách kết hợp chúng hiệu quả và cách tối ưu chúng cho use cases cụ thể là kỹ năng chính cho AI developers. Quyết định kiến trúc có tác động sâu sắc đến hiệu suất, chi phí và khả năng bảo trì.</p>
+<p><strong>An toàn như nền tảng:</strong></p>
+<p>Nhấn mạnh vào guardrails và an toàn làm nổi bật rằng phát triển AI có trách nhiệm đòi hỏi suy nghĩ về an toàn ngay từ đầu của quy trình thiết kế. Điều này không chỉ về tuân thủ mà về xây dựng niềm tin, đảm bảo trải nghiệm người dùng tích cực và bảo vệ danh tiếng thương hiệu. An toàn nên là cân nhắc nền tảng, không phải add-on.</p>
+<p><strong>Tiến hóa liên tục:</strong></p>
+<p>Workshop làm rõ rằng bối cảnh AI/ML đang phát triển với tốc độ chưa từng có. Các models, kỹ thuật và best practices mới xuất hiện thường xuyên, đòi hỏi học tập, thích ứng và thử nghiệm liên tục. Luôn cập nhật không phải tùy chọn mà là thiết yếu cho thành công trong lĩnh vực đang thay đổi nhanh chóng này.</p>
+<h3 id="tác-động-đến-sự-nghiệp-của-tôi">Tác động đến sự nghiệp của tôi</h3>
+<p>Workshop này đã mở rộng đáng kể hiểu biết của tôi về khả năng AI/ML và cách xây dựng ứng dụng sẵn sàng cho production hiệu quả. Trải nghiệm thực hành với SageMaker và Bedrock đã cho tôi các kỹ năng thực tế, có thể áp dụng ngay lập tức mà tôi có thể sử dụng trong các dự án thực tế. Workshop cũng đã truyền cảm hứng cho tôi để:</p>
+<ul>
+<li>Khám phá các kỹ thuật và patterns AI/ML nâng cao hơn</li>
+<li>Xây dựng ứng dụng AI thực tế giải quyết các vấn đề kinh doanh thực tế</li>
+<li>Đóng góp vào thực hành phát triển AI có trách nhiệm</li>
+<li>Luôn cập nhật với bối cảnh AI/ML đang phát triển nhanh chóng</li>
+</ul>
+<hr>
+<h2 id="điểm-chính-rút-ra">Điểm chính rút ra</h2>
+<h3 id="nguyên-tắc-chiến-lược">Nguyên tắc chiến lược</h3>
+<ol>
+<li>
+<p><strong>Bắt đầu với Use Cases:</strong>
+Luôn bắt đầu bằng cách xác định các vấn đề và yêu cầu kinh doanh cụ thể trước khi chọn giải pháp AI/ML. Công nghệ nên giải quyết các vấn đề thực tế và cung cấp giá trị có thể đo lường, không được triển khai vì lợi ích của chính nó. Hiểu sâu vấn đề dẫn đến lựa chọn và triển khai giải pháp tốt hơn.</p>
+</li>
+<li>
+<p><strong>Foundation Models mạnh mẽ:</strong>
+Pre-trained foundation models có thể giải quyết nhiều vấn đề hiệu quả mà không cần training tùy chỉnh, tăng tốc đáng kể phát triển và giảm chi phí. Tận dụng các models này một cách thông minh có thể chuyển đổi timeline phát triển và cho phép đổi mới nhanh chóng.</p>
+</li>
+<li>
+<p><strong>RAG là thiết yếu:</strong>
+Đối với ứng dụng yêu cầu kiến thức cụ thể hoặc chuyên môn domain, kiến trúc RAG là cách tiếp cận tối ưu. Nó cung cấp độ chính xác, relevance và khả năng cập nhật cần thiết cho ứng dụng production mà không có sự phức tạp và chi phí của fine-tuning.</p>
+</li>
+<li>
+<p><strong>MLOps quan trọng:</strong>
+Thực hành MLOps đúng đắn rất quan trọng để duy trì ML models trong production. Không có MLOps mạnh mẽ, models có thể suy giảm theo thời gian, trở nên không đáng tin cậy và không đạt được giá trị kinh doanh mong đợi. MLOps không phải tùy chọn mà là thiết yếu cho hệ thống ML production.</p>
+</li>
+<li>
+<p><strong>An toàn không thể bỏ qua:</strong>
+Lọc nội dung và biện pháp an toàn phải được tích hợp từ giai đoạn thiết kế. Giải quyết an toàn như một suy nghĩ sau có thể dẫn đến vấn đề đáng kể, vấn đề tuân thủ và thiệt hại cho danh tiếng thương hiệu. An toàn là yêu cầu nền tảng, không phải nice-to-have.</p>
+</li>
+<li>
+<p><strong>Học tập liên tục:</strong>
+Bối cảnh AI/ML phát triển với tốc độ chưa từng có, đòi hỏi học tập, thử nghiệm và thích ứng liên tục. Luôn cập nhật với các models, kỹ thuật và best practices mới là thiết yếu cho thành công lâu dài trong lĩnh vực đang thay đổi nhanh chóng này.</p>
+</li>
+</ol>
+<hr>
+<h2 id="hình-ảnh-sự-kiện">Hình ảnh sự kiện</h2>
+<p><em>Thêm hình ảnh sự kiện của bạn tại đây</em></p>
+<hr>
+<blockquote>
+<p>AI/ML/GenAI on AWS Workshop là giới thiệu toàn diện và thực tế về xây dựng ứng dụng AI trên AWS. Sự kết hợp điêu luyện giữa kiến thức lý thuyết, demo thực hành và ví dụ thực tế đã cung cấp nền tảng vững chắc cho làm việc với SageMaker và Bedrock. Những insights thu được từ workshop này đã trang bị cho tôi kiến thức và kỹ năng cần thiết để xây dựng ứng dụng AI/ML sẵn sàng cho production và đã truyền cảm hứng cho tôi tiếp tục khám phá thế giới trí tuệ nhân tạo đang phát triển nhanh chóng, thú vị. Trải nghiệm này đã định hình cơ bản hiểu biết của tôi về cách AI có thể được áp dụng thực tế để giải quyết các vấn đề thực tế.</p>
+</blockquote>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="../../../vi/4-eventparticipated/4.2-event2/" title="Event 2"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="../../../vi/4-eventparticipated/4.4-event4/" title="Event 4" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="../../../js/clipboard.min.js?1765365112"></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1765365112"></script>
+    <script src="../../../js/perfect-scrollbar.jquery.min.js?1765365112"></script>
+    <script src="../../../js/jquery.sticky.js?1765365112"></script>
+    <script src="../../../js/featherlight.min.js?1765365112"></script>
+    <script src="../../../js/highlight.pack.js?1765365112"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../../../js/modernizr.custom-3.6.0.js?1765365112"></script>
+    <script src="../../../js/learn.js?1765365112"></script>
+    <script src="../../../js/hugo-learn.js?1765365112"></script>
+
+    <link href="../../../mermaid/mermaid.css?1765365112" rel="stylesheet" />
+    <script src="../../../mermaid/mermaid.js?1765365112"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script>
+  (function (i, s, o, g, r, a, m) {
+    i["GoogleAnalyticsObject"] = r;
+    ((i[r] =
+      i[r] ||
+      function () {
+        (i[r].q = i[r].q || []).push(arguments);
+      }),
+      (i[r].l = 1 * new Date()));
+    ((a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]));
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+  })(
+    window,
+    document,
+    "script",
+    "https://www.google-analytics.com/analytics.js",
+    "ga",
+  );
+
+  ga("create", "UA-158079754-2", "auto");
+  ga("send", "pageview");
+</script>
+
+  </body>
+</html>
